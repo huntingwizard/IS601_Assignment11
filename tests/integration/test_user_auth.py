@@ -9,7 +9,7 @@ import uuid
 from datetime import timedelta
 
 import pytest
-from jose import jwt
+import jwt
 
 from app.models.user import User
 
