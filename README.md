@@ -1,5 +1,13 @@
-https://hub.docker.com/r/jsl52/601_module10
+https://hub.docker.com/r/jsl52/601_module11
 
+# Test Commands
+git clone https://github.com/huntingwizard/IS601_Assignment11
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+docker compose up --build
+pytest --run-slow
+Check Localhost:8000 and Localhost:5050
 
 # 📦 Project Setup
 
